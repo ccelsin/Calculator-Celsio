@@ -1,0 +1,142 @@
+body{
+	
+	background: #C9CCD3;
+ 	
+ 	background-blend-mode: lighten;
+ 
+}
+
+.bodyStyle{
+	background : linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+i{
+
+	font-size: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+    left: 45px;
+	display: inline-block;
+	width: 4em;
+	height: 5em;
+}
+
+
+.Celsio {
+	
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	width: 400px;
+	height: 530px;
+	border-radius: 50px;
+	background: #e0e0e0;
+	box-shadow: 20px 20px 60px #8b7b7b8f,
+				  -20px -20px 60px #ffffff;
+	
+}
+
+
+
+.sign{
+	background-color: hsl(241, 100%, 68%);
+}
+.option{
+	background-color: hsla(0, 0%, 35%, 0.829);
+}
+
+ button {
+	padding: 17px 22px;
+	border-radius: 50px;
+	border: 0;
+	background-color: white;
+	box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: all .5s ease;
+   }
+   
+   button:hover {
+	letter-spacing: 3px;
+	background-color: hsl(261deg 80% 48%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+	letter-spacing: 3px;
+	background-color: hsl(261deg 80% 48%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+	transform: translateY(10px);
+	transition: 100ms;
+   }
+
+   .blank{
+	height: 5px;
+   }
+
+   
+
+   .line1{
+	display: flex;
+	width: 320px;
+	justify-content: space-between;
+   }
+
+   .line2{
+	display: flex;
+	width: 320px;
+	justify-content: space-between;
+   }
+
+   .line3{
+	display: flex;
+	width: 320px;
+	justify-content: space-between;
+   }
+
+   .line4{
+	display: flex;
+	width: 320px;
+	justify-content: space-between;
+   }
+
+   .line5{
+	display: flex;
+	width: 320px;
+	justify-content: space-between;
+   }
+
+   .buttonField{
+	
+	position: absolute;
+    top: 145px;
+    left: 40px;
+	border-radius: 30px;
+	background-color: #51505023;
+	
+   }
+
+   .output{
+	position: absolute;
+    top: 50px;
+    left: 40px;
+	width: 320px;
+	height: 85px;
+	border-radius: 30px;
+	background: #51505023;
+	
+   }
+   .calc{
+	display: flex;
+	justify-content: end;
+	padding : 5px;
+	font-size: 25px;
+	font-family: Helvetica;
+   }
+
